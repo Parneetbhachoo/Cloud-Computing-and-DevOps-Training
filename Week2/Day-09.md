@@ -1,0 +1,152 @@
+
+# Day 09 — AWS Identity and Access Management (IAM)
+
+**Training Date:** 10 July 2026
+
+## 1. Overview
+
+The ninth day of the Master Class Program on Cloud Computing and DevOps focused on AWS Identity and Access Management (IAM) and its role in securing cloud resources.
+
+The session covered IAM users, groups, roles, policies, permissions, the Principle of Least Privilege, Multi-Factor Authentication (MFA), and AWS security best practices. These concepts help organizations control access to cloud resources and reduce the risk of unauthorized activities.
+
+## 2. Topics Covered
+
+### 2.1 Introduction to AWS IAM
+
+**AWS Identity and Access Management (IAM)** is an AWS service that helps control who can access AWS resources and what actions they are allowed to perform.
+
+IAM allows administrators to manage identities, define permissions, and enforce access control across AWS services.
+
+Its main purposes include:
+
+- Managing identities that access AWS resources.
+- Controlling which actions users and applications can perform.
+- Restricting access to sensitive resources.
+- Improving cloud security through permission management.
+
+### 2.2 IAM Users
+
+An **IAM user** is an identity created within an AWS account to represent a user or application that requires specific access.
+
+IAM users can be assigned permissions according to their responsibilities.
+
+Learned how IAM users can be created and managed to provide controlled access to AWS resources.
+
+User access can involve different authentication methods, depending on the configuration, such as console access or programmatic credentials.
+
+### 2.3 IAM Groups
+
+An **IAM group** is a collection of IAM users that can share a common set of permissions.
+
+Groups simplify permission management when multiple users require similar access.
+
+For example, an organization might create separate groups for developers, administrators, and read-only users, assigning each group permissions appropriate to its responsibilities.
+
+This approach reduces the need to manage identical permissions separately for every user.
+
+### 2.4 IAM Roles
+
+An **IAM role** is an identity with a set of permissions that can be assumed by an authorized user, application, AWS service, or other trusted entity.
+
+Roles are commonly used to grant temporary credentials rather than relying on long-term access keys.
+
+Examples of IAM role usage include:
+
+- Allowing an EC2 instance to access an S3 bucket.
+- Permitting an authorized user to assume a role with additional permissions.
+- Allowing an AWS service to perform specific tasks on behalf of an application.
+
+Roles help provide controlled access without embedding permanent credentials directly into applications.
+
+### 2.5 IAM Policies
+
+An **IAM policy** is a document that defines permissions by specifying which actions are allowed or denied on particular resources, subject to applicable conditions.
+
+Policies are commonly written in JSON format.
+
+An IAM policy can specify:
+
+- **Effect:** Whether an action is allowed or denied.
+- **Action:** The operation being controlled.
+- **Resource:** The AWS resource to which the policy applies.
+- **Condition:** Optional circumstances under which the policy applies.
+
+Policies can be attached to IAM users, groups, and roles, depending on the policy type and supported attachment method.
+
+Correct policy configuration helps ensure that identities receive only the access they need.
+
+### 2.6 User Permissions and Access Control
+
+Studied how AWS permissions determine which operations an identity can perform.
+
+For example, a user might be permitted to view information about EC2 instances without being allowed to launch or terminate them.
+
+Permission management involves understanding which actions are required for a task and limiting access to those actions.
+
+AWS evaluates applicable policies and other access-control rules to determine whether a request is authorized.
+
+### 2.7 Principle of Least Privilege
+
+The **Principle of Least Privilege** is a security principle that states that users, applications, and services should receive only the permissions necessary to perform their assigned tasks.
+
+For example, an employee who only needs to view an S3 bucket should not automatically receive permission to delete its objects or modify its access settings.
+
+Benefits include:
+
+- Reducing the risk of unauthorized actions.
+- Limiting the potential impact of compromised credentials.
+- Preventing unnecessary access to sensitive resources.
+- Improving the overall security of cloud infrastructure.
+
+Least privilege is an important practice when designing IAM policies and assigning permissions.
+
+### 2.8 Multi-Factor Authentication (MFA)
+
+**Multi-Factor Authentication (MFA)** adds an additional verification step to the authentication process.
+
+Instead of relying only on a password, MFA requires an additional authentication factor, such as a code generated by an authenticator application or another supported security method.
+
+MFA helps protect accounts even if a password is exposed.
+
+It is particularly important for protecting privileged accounts and access to sensitive cloud resources.
+
+### 2.9 AWS Security Best Practices
+
+Explored security practices for protecting AWS accounts and resources.
+
+Important practices include:
+
+- Enabling MFA for privileged and other important accounts.
+- Following the Principle of Least Privilege.
+- Avoiding unnecessary permissions.
+- Protecting passwords, access keys, and other credentials.
+- Using IAM roles where appropriate instead of embedding long-term credentials in applications.
+- Reviewing permissions regularly.
+- Removing access that is no longer required.
+- Monitoring account activity and investigating suspicious behaviour.
+
+Following these practices helps reduce security risks and supports responsible management of cloud infrastructure.
+
+## 3. Practical and Conceptual Learning
+
+The session covered the creation and management of IAM users and introduced the purpose of groups, roles, and policies.
+
+The concepts helped explain how AWS access can be organized around user responsibilities, how permissions control access to services, and how additional authentication measures improve account security.
+
+## 4. Key Learnings
+
+- Understood the purpose of AWS Identity and Access Management.
+- Learned how IAM users represent identities requiring access to AWS resources.
+- Understood how IAM groups simplify permission management.
+- Learned how IAM roles provide permissions to authorized users, applications, and services.
+- Understood how IAM policies define allowed and denied actions.
+- Learned the importance of assigning permissions according to user responsibilities.
+- Understood the Principle of Least Privilege.
+- Learned how MFA adds an additional layer of account protection.
+- Explored security practices for protecting AWS accounts and cloud resources.
+
+## 5. Learning Outcome
+
+Developed a foundational understanding of AWS identity management and access control. The session highlighted the importance of managing users, groups, roles, policies, and authentication methods to protect cloud resources.
+
+These concepts provide an important foundation for securely managing AWS infrastructure and applying security principles in future cloud computing and DevOps tasks.
