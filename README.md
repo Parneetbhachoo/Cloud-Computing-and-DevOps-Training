@@ -98,7 +98,7 @@ The diary is organized week by week, with individual Markdown files documenting 
 ## 📂 Repository Structure
 
 ```text
-devops-training-diary/
+Cloud-Computing-and-DevOps-Training/
 │
 ├── README.md
 ├── Week1/
