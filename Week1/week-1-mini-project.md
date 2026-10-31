@@ -15,7 +15,7 @@ The PDF contains the implementation report, webpage screenshot, Bash script, and
 
 ---
 
-# Task 5 — Web Server Deployment Using Apache
+# Task 1 — Web Server Deployment Using Apache
 
 ## 1. Task Description
 
@@ -132,7 +132,7 @@ Gained practical experience checking the Apache installation, validating server 
 
 ---
 
-# Task 6 — Bash Automation Script
+# Task 2 — Bash Automation Script
 
 ## 1. Task Description
 
