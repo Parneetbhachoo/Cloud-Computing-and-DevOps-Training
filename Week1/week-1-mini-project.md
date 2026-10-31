@@ -9,7 +9,8 @@
 
 The Week 1 mini project focused on web server deployment using Apache and system monitoring through Bash automation. This documentation covers Task 5 and Task 6 of the practical assignment.
 
-**[View Complete Practical Report (PDF)](week-1 project report.pdf)**
+
+[View Complete Practical Report (PDF)](week-1%20project%20report.pdf)
 
 The PDF contains the implementation report, webpage screenshot, Bash script, and terminal output.
 
